@@ -15,11 +15,12 @@ class SpiderMTSApp extends AApplication
 	{
 		super.onReady();
 
-		this.setMainContainer(new APage('main'));
-		this.mainContainer.open('Source/MainView.lay');
-
-		//TODO:edit here
-
+		var navi = new ANavigator('main');
+		
+		navi.registerPage('Source/LoginView.lay', 'LoginView');
+		navi.registerPage('Source/MainView.lay', 'MainView');
+		
+		navi.goPage('LoginView');
 	}
 
 	unitTest(unitUrl)

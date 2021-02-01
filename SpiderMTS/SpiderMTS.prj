@@ -72,6 +72,76 @@
             "name": "MainView.lay",
             "relType": 1,
             "path": "Source\\"
+          },
+          {
+            "type": 5,
+            "name": "LoginView.js",
+            "action": 9,
+            "relType": 1,
+            "path": "Source\\",
+            "comment": ""
+          },
+          {
+            "type": 3,
+            "name": "LoginView.lay",
+            "action": 6,
+            "relType": 1,
+            "path": "Source\\",
+            "comment": ""
+          },
+          {
+            "type": 1,
+            "name": "main",
+            "children": [
+              {
+                "type": 5,
+                "name": "Page0001.js",
+                "action": 9,
+                "relType": 1,
+                "path": "Source\\main\\",
+                "comment": ""
+              },
+              {
+                "type": 3,
+                "name": "Page0001.lay",
+                "action": 6,
+                "relType": 1,
+                "path": "Source\\main\\",
+                "comment": ""
+              },
+              {
+                "type": 5,
+                "name": "Page0002.js",
+                "action": 9,
+                "relType": 1,
+                "path": "Source\\main\\",
+                "comment": ""
+              },
+              {
+                "type": 3,
+                "name": "Page0002.lay",
+                "action": 6,
+                "relType": 1,
+                "path": "Source\\main\\",
+                "comment": ""
+              },
+              {
+                "type": 5,
+                "name": "Page0003.js",
+                "action": 9,
+                "relType": 1,
+                "path": "Source\\main\\",
+                "comment": ""
+              },
+              {
+                "type": 3,
+                "name": "Page0003.lay",
+                "action": 6,
+                "relType": 1,
+                "path": "Source\\main\\",
+                "comment": ""
+              }
+            ]
           }
         ]
       }
