@@ -29,7 +29,7 @@ class MainView extends AView
 		var cntr = this.naviView.loadContainer( null, 'naviView_cntr');
 
 		//두번째 파라미터에 컨테이너를 셋팅하면 지정한 컨테이너의 내부에서 네비게이터가 작동된다.
-		var navi = new ANavigator('mainview_navi', cntr);
+		var navi = new ANavigator('sub_navi', cntr);
 
 		navi.registerPage('Source/main/Page0001.lay', 'Page0001');
 		//navi.registerPage('Source/main/Page0001.lay', 'Page0002');
