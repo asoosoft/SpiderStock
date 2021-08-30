@@ -1,6 +1,4 @@
 
-afc.loadScript('Framework/afc/component/APanel.js', true);
-
 /**
 Constructor
 */
